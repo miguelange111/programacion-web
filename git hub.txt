@@ -1,0 +1,64 @@
+Coco@DESKTOP-1SLE76U MINGW64 ~/Desktop/taller de programacion
+$ git init
+Initialized empty Git repository in C:/Users/Coco/Desktop/taller de programacion/.git/
+
+Coco@DESKTOP-1SLE76U MINGW64 ~/Desktop/taller de programacion (master)
+$ git remote add origin https://github.com/miguelange111/programacion-web.git
+
+Coco@DESKTOP-1SLE76U MINGW64 ~/Desktop/taller de programacion (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        clase 1/
+        clase 2/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Coco@DESKTOP-1SLE76U MINGW64 ~/Desktop/taller de programacion (master)
+$ git add *
+
+Coco@DESKTOP-1SLE76U MINGW64 ~/Desktop/taller de programacion (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   clase 1/estilos.css
+        new file:   clase 1/index1.html
+        new file:   clase 2/descarga.png
+        new file:   clase 2/estilos.css
+        new file:   clase 2/homero.gif
+        new file:   clase 2/imagen.html
+
+
+Coco@DESKTOP-1SLE76U MINGW64 ~/Desktop/taller de programacion (master)
+$ git commit -m "primera subida"
+[master (root-commit) 69d5ef6] primera subida
+ 6 files changed, 95 insertions(+)
+ create mode 100644 clase 1/estilos.css
+ create mode 100644 clase 1/index1.html
+ create mode 100644 clase 2/descarga.png
+ create mode 100644 clase 2/estilos.css
+ create mode 100644 clase 2/homero.gif
+ create mode 100644 clase 2/imagen.html
+
+Coco@DESKTOP-1SLE76U MINGW64 ~/Desktop/taller de programacion (master)
+$ git push -u origin master
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (10/10), 16.67 KiB | 5.55 MiB/s, done.
+Total 10 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/miguelange111/programacion-web.git
+ * [new branch]      master -> master
+
+Coco@DESKTOP-1SLE76U MINGW64 ~/Desktop/taller de programacion (master)
+$
